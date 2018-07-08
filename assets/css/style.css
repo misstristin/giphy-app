@@ -1,0 +1,11 @@
+.container {
+    width: 100%;
+    margin: 25px auto;
+}
+button {
+    margin: 2.5px 5px;
+}
+.giphys {
+    height: 200px;
+    margin: 5px;
+}

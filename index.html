@@ -5,9 +5,30 @@
     <title>Fun with Gifs</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+   
 </head>
 <body>
+    <div class="container">
+        <div class="row">
+            <div id="buttons" class="col-sm-9">
+                <!-- buttons populate here -->
+            </div>
+            <div id="addButtons" class="col-sm-3">
+                <!-- Add topic input and button -->
+                <input type="text">
+                <button id="addButton" class="btn-primary">Add Gif Topic</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div id="gifDiv" class="col-sm-12">
+                <!-- Gifs populate here on click of topic buttons -->
+            </div>
+        </div>
+
+    </div>
+        
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="assets/javascript/app.js"></script> 
 </body>

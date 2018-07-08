@@ -1,11 +1,18 @@
+body {
+    background: url('../images/full-bloom.png');
+}
 .container {
-    width: 100%;
+    width: 80%;
     margin: 25px auto;
+}
+h3 {
+    margin-top: 15px;
 }
 button {
     margin: 2.5px 5px;
 }
 .giphys {
-    height: 200px;
+    width: 300px;
     margin: 5px;
+    border: 2px dashed darkblue;
 }
